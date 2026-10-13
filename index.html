@@ -1,18 +1,23 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simple Paint</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal Animation</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-    <link rel="stylesheet" href="style.css">
 <body>
-<h2>Simple Paint Application</h2>
-Color:
-<input type="color" id="color">
-Brush Size:
-<input type="range" id="size" min="1" max="20" value="5">
-<button onclick="clearCanvas()">Clear</button>
-<br><br>
-<canvas id="paint" width="600" height="400"></canvas>
-<script src="script.js"></script>
+
+    <h2>Traffic Signal Animation</h2>
+
+    <div class="signal">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+    </div>
+
+    <div class="car"></div>
+
 </body>
 </html>
